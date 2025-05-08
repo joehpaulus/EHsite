@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Erika Hoertig - Italian Language Teacher Website
+
+A modern website for an Italian language teacher, built with Next.js and Bootstrap.
+
+## Features
+
+- Responsive design
+- About page with teaching philosophy
+- Experience page with teaching history
+- Schedule page with contact information
+- Modern UI with Italian flag color scheme
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
+cd erikasite
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+The following information needs to be updated:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Contact Information:
+   - Update the email address in `src/app/components/ContactButton.tsx`
+   - Add Calendly integration when available
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. About Page (`src/app/about/page.tsx`):
+   - Update personal story
+   - Modify teaching philosophy
+   - Update qualifications
 
-## Deploy on Vercel
+3. Experience Page (`src/app/experience/page.tsx`):
+   - Update teaching experience
+   - Modify teaching methods
+   - Add real testimonials
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Schedule Page (`src/app/schedule/page.tsx`):
+   - Update lesson duration
+   - Modify platform information
+   - Update payment details
+   - Adjust cancellation policy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+
+- Next.js 14
+- React
+- Bootstrap
+- TypeScript
+
+## Deployment
+
+The site can be deployed to any platform that supports Next.js applications, such as:
+- Vercel
+- Netlify
+- GitHub Pages
+
+## Contact
+
+For any questions or customization requests, please contact the developer.

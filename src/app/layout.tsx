@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
           <div className="container">
-            <a className="navbar-brand fw-bold" href="/" style={{ color: 'var(--italian-green)' }}>
+            <a className="navbar-brand fw-bold" href="/EHsite/" style={{ color: 'var(--italian-green)' }}>
               Erika Hoertig
             </a>
             <button
@@ -34,16 +34,16 @@ export default function RootLayout({
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="/">Home</a>
+                  <a className="nav-link" href="/EHsite/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/about">About</a>
+                  <a className="nav-link" href="/EHsite/about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/experience">Experience</a>
+                  <a className="nav-link" href="/EHsite/experience">Experience</a>
                 </li>
                 <li className="nav-item">
-                  <a className="btn btn-primary ms-2" href="/schedule">Schedule</a>
+                  <a className="btn btn-primary ms-2" href="/EHsite/schedule">Schedule</a>
                 </li>
               </ul>
             </div>

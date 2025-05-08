@@ -18,10 +18,10 @@ export default function Home() {
             Personalized Italian lessons tailored to your goals and learning style
           </p>
           <div className="d-flex justify-content-center gap-3">
-            <a href="/schedule" className="btn btn-primary btn-lg">
+            <a href="/EHsite/schedule" className="btn btn-primary btn-lg">
               Book Your First Lesson
             </a>
-            <a href="/about" className="btn btn-secondary btn-lg">
+            <a href="/EHsite/about" className="btn btn-secondary btn-lg">
               Learn More
             </a>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
           <p className="lead mb-5" style={{ color: 'var(--italian-dark)' }}>
             Book your first lesson today and take the first step towards fluency
           </p>
-          <a href="/schedule" className="btn btn-secondary btn-lg">
+          <a href="/EHsite/schedule" className="btn btn-secondary btn-lg">
             Schedule Now
           </a>
         </div>

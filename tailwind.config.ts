@@ -12,7 +12,6 @@ const config: Config = {
         'italian-green': '#009246',
         'italian-white': '#FFFFFF',
         'italian-red': '#CE2B37',
-        'italian-dark': '#1A1A1A',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

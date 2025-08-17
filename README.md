@@ -1,6 +1,7 @@
 # Erika Hoertig - Italian Language Teacher Website
 
 A modern website for an Italian language teacher, built with Next.js and Bootstrap.
+Site Live at: [EHItalian](https://ehitalian.onrender.com/EHsite/)
 
 ## Features
 
@@ -68,6 +69,4 @@ The site can be deployed to any platform that supports Next.js applications, suc
 - Netlify
 - GitHub Pages
 
-## Contact
 
-For any questions or customization requests, please contact the developer.
